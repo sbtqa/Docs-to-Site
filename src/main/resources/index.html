@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid black;
+    }
+
+    th {
+      height: 50px;
+    }
+
+    .headermenu {
+      height: 100%;
+    }
+
+    .headermenu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .headermenu span,
+    .headermenu a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      float: left;
+      font-size: 30px
+    }
+
+    .headermenu span,
+    .headermenu a:hover {
+      background-color: #111;
+    }
+
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #1111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 4px 4px 4px 4px;
+      text-decoration: none;
+      color: #0000FF;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav h3,
+    .sidenav li,
+    .sidenav ul,
+    .sidenav strong {
+      padding: 4px 4px 4px 4px;
+      text-decoration: none;
+      font-size: 16px;
+      color: ##000000;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover,
+    .offcanvas a:focus {
+      color: #58ACFA;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    #main {
+      transition: margin-left .5s;
+      padding: 16px;
+    }
+
+    @media screen and (max-height: 600px) {
+      .sidenav {
+        padding-top: 5px;
+      }
+      .sidenav a {
+        font-size: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div id="sidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    ##Sidebar
+  </div>
+
+  <div id="main">
+    <div id="header" class="headermenu">
+      <ul>
+        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a href="Home.html">Home</a></span>
+      </ul>
+    </div>
+    ##ArticleBody
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("sidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("sidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+
+</body>
+
+</html>
