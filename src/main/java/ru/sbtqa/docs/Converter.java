@@ -1,4 +1,4 @@
-package ru.sbtqa.doctosite;
+package ru.sbtqa.docs;
 
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;

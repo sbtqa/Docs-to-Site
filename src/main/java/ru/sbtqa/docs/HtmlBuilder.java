@@ -1,4 +1,4 @@
-package ru.sbtqa.doctosite;
+package ru.sbtqa.docs;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
