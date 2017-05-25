@@ -11,13 +11,15 @@ deploy:
     script: ".travis/deploy.sh"
     skip_cleanup: true
     on:
-      repo: sbtqa/doc-to-site
+      repo: sbtqa/docs-to-site
       branch: master
       jdk: oraclejdk8
   - provider: script
     script: ".travis/deploy.sh"
     skip_cleanup: true
     on:
-      repo: sbtqa/doc-to-site
+      repo: sbtqa/docs-to-site
       tags: true
       jdk: oraclejdk8
+notifications:
+  email: false

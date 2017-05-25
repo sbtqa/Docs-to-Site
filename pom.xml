@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ru.sbtqa</groupId>
-  <artifactId>doc-to-site</artifactId>
+  <artifactId>docs-to-site</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>doc-to-site</name>
-  <description>doc-to-site description</description>
-  <url>http://github.com/sbtqa/doc-to-site</url>
+  <name>docs-to-site</name>
+  <description>docs-to-site description</description>
+  <url>http://github.com/sbtqa/docs-to-site</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -25,9 +25,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/sbtqa/doc-to-site</connection>
-    <developerConnection>scm:git:ssh://github.com:sbtqa/doc-to-site.git</developerConnection>
-    <url>https://github.com/sbtqa/doc-to-site/tree/master</url>
+    <connection>scm:git:git://github.com/sbtqa/docs-to-site</connection>
+    <developerConnection>scm:git:ssh://github.com:sbtqa/docs-to-site.git</developerConnection>
+    <url>https://github.com/sbtqa/docs-to-site/tree/master</url>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
