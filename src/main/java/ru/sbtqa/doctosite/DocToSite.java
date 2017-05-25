@@ -1,6 +1,5 @@
 package ru.sbtqa.doctosite;
 
-
 import java.io.IOException;
 import java.util.Map;
 
@@ -8,7 +7,6 @@ import java.util.Map;
  * Created by sbt-svetlakov-av on 15.05.17.
  */
 public class DocToSite {
-
 
     private static void saveHtmlFiles(Map<String, String> results) throws IOException {
         String path = System.getProperty("user.dir") + "/docs";
