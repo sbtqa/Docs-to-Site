@@ -138,7 +138,7 @@
         <configuration> 
           <archive> 
             <manifest> 
-              <mainClass>ru.sbtqa.doctosite.DocToSite</mainClass> 
+              <mainClass>ru.sbtqa.docs.DocToSite</mainClass> 
             </manifest> 
           </archive> 
           <descriptorRefs> 
