@@ -26,7 +26,7 @@
   </developers>
   <scm>
     <connection>scm:git:git://github.com/sbtqa/doc-to-site</connection>
-    <developerConnection>scm:git:ssh://github.com:sbtqa/page-factory.git</developerConnection>
+    <developerConnection>scm:git:ssh://github.com:sbtqa/doc-to-site.git</developerConnection>
     <url>https://github.com/sbtqa/doc-to-site/tree/master</url>
   </scm>
   <properties>
