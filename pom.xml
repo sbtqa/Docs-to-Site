@@ -174,10 +174,11 @@
       <resource> 
         <directory>${project.basedir}/src/main/resources</directory> 
         <includes> 
-          <include>*.html</include> 
+          <include>*.html</include>
+          <include>*.css</include>
+          <include>*.js</include>
         </includes> 
       </resource> 
-    </resources> 
-
+    </resources>
   </build>
 </project>
